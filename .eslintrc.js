@@ -20,4 +20,9 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': ['react'],
+  'rules': {
+    'react/prop-types': [1, {
+      'skipUndeclared': true
+    }]
+  }
 };
