@@ -6,7 +6,8 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
+    'google'
   ],
   'globals': {
     'Atomics': 'readonly',
@@ -23,6 +24,7 @@ module.exports = {
   'rules': {
     'react/prop-types': [1, {
       'skipUndeclared': true
-    }]
+    }],
+    'require-jsdoc': 0
   }
 };
