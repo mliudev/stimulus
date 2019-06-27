@@ -25,9 +25,9 @@ class Board extends React.Component {
   }
 
   handleClick(i) {
-    const squares = this.state.squares.slice()
-    squares[i] = 'X'
-    this.setState({ squares: squares });
+    const squares = this.state.squares.slice();
+    squares[i] = 'X';
+    this.setState({squares: squares});
   }
 
   renderSquare(i) {
@@ -82,6 +82,6 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
+    <Game />,
+    document.getElementById('root')
 );
