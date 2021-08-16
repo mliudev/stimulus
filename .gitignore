@@ -1,2 +1,5 @@
 # node
 node_modules/
+
+# built or transpiled files
+build/
